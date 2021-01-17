@@ -1,0 +1,114 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.clock{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('clock.png');
+    background-size: cover;
+}
+
+.timeArrow{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeArrouSecond{
+    top: 5%;
+    height: 90%;
+    width: 3px;  
+}
+
+.arrowSecond{
+    height: 55%;
+    width: 100%;
+    background-color: red;
+}
+
+.timeArrouHour{
+    top: 20%;
+    height: 60%;
+    width: 10px;
+}
+
+.arrowHour{
+    height: 55%;
+    width: 100%;
+    background-color: black;
+}
+
+.timeArrouMinute{
+    top: 15%;
+    height: 70%;
+    width: 6px;
+}
+
+.arrowMinute{
+    height: 55%;
+    width: 100%;
+    background-color: black;
+}
+
+.centr_circle{
+    position: absolute;
+    transform: translate(-25%, -50%);
+    top: 50%;
+    left: 50%;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.week{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
+
+.weekday{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.current_date{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+
+#clock_on{
+    background-image: url('ring.png');
+    background-size: cover;
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    top: 56%;
+    left: 29%;
+}
+
+#clock_off{
+    background-image: url('ring2.png');
+    background-size: cover;
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    top: 56%;
+    left: 67%;
+}
+
+.alarm{
+    position: absolute;
+    top: 64%;
+    left: 44%;
+    z-index: 10;
+    font: 2em sans-serif;
+}
